@@ -1,23 +1,11 @@
 import Header from "./components/layout/Header";
+import Home from "./components/sections/Home";
 
 function App() {
   return (
     <div className="min-h-screen bg-white dark:bg-black">
       <Header />
-
-      <section
-        id="home"
-        className="min-h-screen flex items-center justify-center bg-gradient-to-br from-gray-50 to-white dark:from-gray-900 dark:to-black"
-      >
-        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h1 className="text-5xl md:text-7xl font-bold text-gray-900 dark:text-white mb-6">
-            Welcome to My
-            <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent block">
-              Portfolio
-            </span>
-          </h1>
-        </div>
-      </section>
+      <Home />
 
       <section id="about" className="py-20 bg-white dark:bg-gray-900">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">

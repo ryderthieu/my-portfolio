@@ -4,6 +4,9 @@ import { initReactI18next } from "react-i18next";
 import viHeader from "./locales/vi/header.json";
 import enHeader from "./locales/en/header.json";
 import jaHeader from "./locales/ja/header.json";
+import viHome from "./locales/vi/home.json";
+import enHome from "./locales/en/home.json";
+import jaHome from "./locales/ja/home.json";
 
 i18n
   .use(I18nextBrowserLanguageDetector)
@@ -12,12 +15,15 @@ i18n
     resources: {
       vi: {
         header: viHeader,
+        home: viHome,
       },
       en: {
         header: enHeader,
+        home: enHome,
       },
       ja: {
         header: jaHeader,
+        home: jaHome,
       },
     },
     fallbackLng: "en",
