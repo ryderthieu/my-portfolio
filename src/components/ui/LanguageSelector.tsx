@@ -1,28 +1,20 @@
 import React, { useState, useRef, useEffect } from "react";
 import { ChevronDownIcon, CheckIcon } from "../../assets/icons";
-
-type Language = {
-  code: "vi" | "en" | "ja";
-  name: string;
-};
+import type { Language, LanguageCode } from "../../types/language.type";
 
 interface LanguageSelectorProps {
-  currentLanguage: Language["code"];
-  onLanguageChange: (language: Language["code"]) => void;
+  currentLanguage: LanguageCode;
+  languages: Language[];
+  onLanguageChange: (language: Language) => void;
 }
 
 const LanguageSelector: React.FC<LanguageSelectorProps> = ({
   currentLanguage,
+  languages,
   onLanguageChange,
 }) => {
   const [isOpen, setIsOpen] = useState(false);
   const dropdownRef = useRef<HTMLDivElement>(null);
-
-  const languages: Language[] = [
-    { code: "vi", name: "Tiếng Việt" },
-    { code: "en", name: "English" },
-    { code: "ja", name: "日本語" },
-  ];
 
   const currentLang =
     languages.find((lang) => lang.code === currentLanguage) || languages[0];
@@ -41,7 +33,7 @@ const LanguageSelector: React.FC<LanguageSelectorProps> = ({
     return () => document.removeEventListener("mousedown", handleClickOutside);
   }, []);
 
-  const handleLanguageSelect = (langCode: Language["code"]) => {
+  const handleLanguageSelect = (langCode: Language) => {
     onLanguageChange(langCode);
     setIsOpen(false);
   };
@@ -76,7 +68,7 @@ const LanguageSelector: React.FC<LanguageSelectorProps> = ({
           {languages.map((language) => (
             <button
               key={language.code}
-              onClick={() => handleLanguageSelect(language.code)}
+              onClick={() => handleLanguageSelect(language)}
               className={`w-full cursor-pointer flex items-center gap-3 px-4 py-2 text-left hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors duration-150 ${
                 currentLanguage === language.code
                   ? "bg-blue-50 dark:bg-blue-900/20 text-black dark:text-white"

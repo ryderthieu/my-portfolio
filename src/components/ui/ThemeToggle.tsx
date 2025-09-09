@@ -10,8 +10,6 @@ const ThemeToggle = ({ theme, onThemeChange }: ThemeToggleProps) => {
     onThemeChange(theme);
   };
 
-  console.log(theme);
-
   return (
     <div className="relative inline-flex items-center bg-gray-200 dark:bg-gray-700 rounded-full p-1 transition-all duration-200">
       <button

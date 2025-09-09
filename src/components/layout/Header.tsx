@@ -3,6 +3,8 @@ import LanguageSelector from "../ui/LanguageSelector";
 import ThemeToggle from "../ui/ThemeToggle";
 import { MenuIcon, CloseIcon, ChevronRightIcon } from "../../assets/icons";
 import { useTheme } from "../../hooks/useTheme";
+import { useTranslation } from "react-i18next";
+import { useLanguage } from "../../hooks/useLanguage";
 
 interface NavItem {
   id: string;
@@ -13,32 +15,35 @@ interface NavItem {
 const Header = () => {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
-  const [language, setLanguage] = useState<"vi" | "en" | "ja">("en");
+
   const { theme, handleThemeChange } = useTheme();
+  const { t } = useTranslation("header");
+  const { currentLanguage, changeLanguage, languages } = useLanguage();
+
   const navItems: NavItem[] = [
     {
       id: "home",
-      label: "Home",
+      label: t("home"),
       href: "#home",
     },
     {
       id: "about",
-      label: "About",
+      label: t("about"),
       href: "#about",
     },
     {
       id: "skills",
-      label: "Skills",
+      label: t("skills"),
       href: "#skills",
     },
     {
       id: "project",
-      label: "Project",
+      label: t("project"),
       href: "#project",
     },
     {
       id: "contact",
-      label: "Contact",
+      label: t("contact"),
       href: "#contact",
     },
   ];
@@ -105,8 +110,9 @@ const Header = () => {
             <div className="items-center gap-4 hidden md:flex">
               <ThemeToggle theme={theme} onThemeChange={handleThemeChange} />
               <LanguageSelector
-                currentLanguage={language}
-                onLanguageChange={setLanguage}
+                currentLanguage={currentLanguage}
+                onLanguageChange={changeLanguage}
+                languages={languages}
               />
             </div>
 
@@ -187,18 +193,19 @@ const Header = () => {
             <div className="space-y-4">
               <div className="flex items-center justify-between">
                 <span className="text-gray-500 dark:text-gray-300 font-medium">
-                  Theme
+                  {t("theme")}
                 </span>
                 <ThemeToggle theme={theme} onThemeChange={handleThemeChange} />
               </div>
 
               <div className="space-y-2 flex items-center justify-between">
                 <span className="text-gray-500 dark:text-gray-300 font-medium">
-                  Language
+                  {t("language")}
                 </span>
                 <LanguageSelector
-                  currentLanguage={language}
-                  onLanguageChange={setLanguage}
+                  currentLanguage={currentLanguage}
+                  onLanguageChange={(language) => changeLanguage(language)}
+                  languages={languages}
                 />
               </div>
             </div>
