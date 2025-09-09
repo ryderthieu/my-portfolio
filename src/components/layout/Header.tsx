@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import LanguageSelector from "../ui/LanguageSelector";
 import ThemeToggle from "../ui/ThemeToggle";
 import { MenuIcon, CloseIcon, ChevronRightIcon } from "../../assets/icons";
+import { useTheme } from "../../hooks/useTheme";
 
 interface NavItem {
   id: string;
@@ -12,8 +13,8 @@ interface NavItem {
 const Header = () => {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
-  const [theme, setTheme] = useState<"light" | "dark">("light");
   const [language, setLanguage] = useState<"vi" | "en" | "ja">("en");
+  const { theme, handleThemeChange } = useTheme();
   const navItems: NavItem[] = [
     {
       id: "home",
@@ -102,7 +103,7 @@ const Header = () => {
             </div>
 
             <div className="items-center gap-4 hidden md:flex">
-              <ThemeToggle theme={theme} onThemeChange={setTheme} />
+              <ThemeToggle theme={theme} onThemeChange={handleThemeChange} />
               <LanguageSelector
                 currentLanguage={language}
                 onLanguageChange={setLanguage}
@@ -188,7 +189,7 @@ const Header = () => {
                 <span className="text-gray-500 dark:text-gray-300 font-medium">
                   Theme
                 </span>
-                <ThemeToggle theme={theme} onThemeChange={setTheme} />
+                <ThemeToggle theme={theme} onThemeChange={handleThemeChange} />
               </div>
 
               <div className="space-y-2 flex items-center justify-between">
