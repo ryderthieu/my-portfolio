@@ -7,6 +7,9 @@ import jaHeader from "./locales/ja/header.json";
 import viHome from "./locales/vi/home.json";
 import enHome from "./locales/en/home.json";
 import jaHome from "./locales/ja/home.json";
+import viAbout from "./locales/vi/about.json";
+import enAbout from "./locales/en/about.json";
+import jaAbout from "./locales/ja/about.json";
 
 i18n
   .use(I18nextBrowserLanguageDetector)
@@ -16,14 +19,17 @@ i18n
       vi: {
         header: viHeader,
         home: viHome,
+        about: viAbout,
       },
       en: {
         header: enHeader,
         home: enHome,
+        about: enAbout,
       },
       ja: {
         header: jaHeader,
         home: jaHome,
+        about: jaAbout,
       },
     },
     fallbackLng: "en",

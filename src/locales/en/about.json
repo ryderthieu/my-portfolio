@@ -1,0 +1,31 @@
+{
+    "title": "About Me",
+    "imageAlt": "Profile picture of Huynh Van Thieu",
+    "description1": "Hello! I'm Huynh Van Thieu, an Information Technology student. I am currently studying at university and continuously learning to become a skilled Full Stack Developer.",
+    "description2": "During my studies, I have self-learned and practiced various technologies, from frontend like React, TypeScript to backend like Node.js, Python. I always look for opportunities to apply my knowledge to real-world projects.",
+    "description3": "Besides coding, I am also interested in UI/UX design and strive to create products with great user experience. My goal is to become a Full Stack Developer capable of working efficiently from frontend to backend.",
+    "highlightsTitle": "Highlights",
+    "highlight1": "Proactive in learning and exploring new technologies",
+    "highlight2": "Experienced in project management, often taking the role of team leader",
+    "highlight3": "Adaptable to new environments and able to work under pressure",
+    "educationTitle": "Education",
+    "experienceTitle": "Experience",
+    "education": {
+        "school": "University of Information Technology - Vietnam National University, Ho Chi Minh City",
+        "major": "Web Technology Major",
+        "gpa": "9.14/10",
+        "year": "2022 - 2026",
+        "status": "Currently studying",
+        "languageTitle": "Languages",
+        "language": [
+            "Japanese",
+            "English"
+        ]
+    },
+    "experience": {
+        "year": "2024 (2 months)",
+        "title": "Node.js Developer Intern",
+        "company": "Sun Asterisk Vietnam Co., Ltd.",
+        "description": "Improved Git skills through real-world projects, learned NestJS, and contributed to developing a web application using NestJS (Backend) and React (Frontend)."
+    }
+}

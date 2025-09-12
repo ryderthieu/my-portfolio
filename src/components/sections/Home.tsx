@@ -61,7 +61,7 @@ const Home: React.FC = () => {
               </span>
             </div>
 
-            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-900 dark:text-white mb-4 leading-tight">
+            <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold text-gray-900 dark:text-white mb-4 leading-tight">
               <span className="block">
                 {hello}
                 {!helloCompleted && <span className="font-thin">_</span>}

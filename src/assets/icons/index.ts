@@ -1,4 +1,3 @@
-// Export all icons from a single file for easier imports
 export { default as ChevronDownIcon } from "./ChevronDownIcon";
 export { default as ChevronRightIcon } from "./ChevronRightIcon";
 export { default as CheckIcon } from "./CheckIcon";
@@ -13,3 +12,6 @@ export { default as LinkedInIcon } from "./LinkedInIcon";
 export { default as EmailIcon } from "./EmailIcon";
 export { default as CodeIcon } from "./CodeIcon";
 export { default as BugIcon } from "./BugIcon";
+export { default as LearningIcon } from "./LearningIcon";
+export { default as ExperienceIcon } from "./ExperienceIcon";
+export { default as InnovationIcon } from "./InnovationIcon";

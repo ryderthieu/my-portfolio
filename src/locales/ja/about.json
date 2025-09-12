@@ -1,0 +1,31 @@
+{
+    "title": "私について",
+    "imageAlt": "フイン・ヴァン・ティエウのプロフィール写真",
+    "description1": "こんにちは！フイン・ヴァン・ティエウです。情報技術を専攻している大学生で、優れたフルスタックエンジニアになるため日々学び続けています。",
+    "description2": "学習の中で、ReactやTypeScriptといったフロントエンド、Node.jsやPythonといったバックエンド技術を独学し、実際のプロジェクトで知識を活かす機会を常に探しています。",
+    "description3": "コーディングだけでなく、UI/UXデザインにも関心があり、ユーザー体験の良いプロダクト作りを心がけています。目標は、フロントエンドからバックエンドまで幅広く対応できるフルスタックエンジニアになることです。",
+    "highlightsTitle": "強み",
+    "highlight1": "新しい技術を積極的に学び、活用できる",
+    "highlight2": "プロジェクト管理の経験があり、リーダーを務めることが多い",
+    "highlight3": "新しい環境への適応力が高く、プレッシャーの中でも成果を出せる",
+    "educationTitle": "学歴",
+    "experienceTitle": "経験",
+    "education": {
+        "school": "ベトナム国家大学ホーチミン市校情報通信大学",
+        "major": "Web技術専攻",
+        "gpa": "9.14/10",
+        "year": "2022 - 2026",
+        "status": "在学中",
+        "languageTitle": "言語",
+        "language": [
+            "日本語",
+            "英語"
+        ]
+    },
+    "experience": {
+        "year": "2024年（2ヶ月）",
+        "title": "Node.js開発インターン",
+        "company": "Sun Asterisk Vietnam Co., Ltd.",
+        "description": "実際のプロジェクトでGitスキルを向上させ、NestJSを学び、NestJS（バックエンド）とReact（フロントエンド）を使ったWebアプリケーション開発に参加しました。"
+    }
+}

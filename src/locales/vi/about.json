@@ -1,0 +1,31 @@
+{
+    "title": "Về Tôi",
+    "imageAlt": "Ảnh đại diện của Huỳnh Văn Thiệu",
+    "description1": "Xin chào! Tôi là Huỳnh Văn Thiệu, một sinh viên ngành công nghệ thông tin. Tôi đang theo học tại trường đại học và không ngừng học hỏi để trở thành một Full Stack Developer giỏi.",
+    "description2": "Trong quá trình học tập, tôi đã tự học và thực hành với nhiều công nghệ khác nhau từ frontend như React, TypeScript đến backend như Node.js, Python. Tôi luôn tìm kiếm cơ hội để áp dụng kiến thức vào các dự án thực tế.",
+    "description3": "Ngoài việc coding, tôi còn quan tâm đến thiết kế UI/UX và luôn cố gắng tạo ra những sản phẩm có trải nghiệm người dùng tốt. Mục tiêu của tôi là trở thành một Full Stack Developer có thể làm việc hiệu quả từ frontend đến backend.",
+    "highlightsTitle": "Điểm Nổi Bật",
+    "highlight1": "Chủ động học hỏi và tìm hiểu các công nghệ mới",
+    "highlight2": "Có kinh nghiệm quản lý dự án, thường giữ vai trò trưởng nhóm",
+    "highlight3": "Có khả năng thích nghi với môi trường mới, chịu được áp lực cao",
+    "educationTitle": "Học Vấn",
+    "experienceTitle": "Kinh Nghiệm",
+    "education": {
+        "school": "Trường Đại học Công nghệ Thông tin - Đại học quốc gia thành phố Hồ Chí Minh",
+        "major": "Chuyên ngành công nghệ Web",
+        "gpa": "9.14/10",
+        "year": "2022 - 2026",
+        "status": "Đang học",
+        "languageTitle": "Ngoại ngữ",
+        "language": [
+            "Tiếng Nhật",
+            "Tiếng Anh"
+        ]
+    },
+    "experience": {
+        "year": "2024 (2 tháng)",
+        "title": "Thực tập sinh Node.Js Developer",
+        "company": "Công ty TNHH Sun Asterisk Việt Nam",
+        "description": "Nâng cao kỹ năng sử dụng git trong dự án thực tế, đồng thời học các kiến thức về NestJS và áp dụng để tham gia phát triển ứng dụng web với NestJS (Backend) và React (Frontend)"
+    }
+}

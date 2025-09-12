@@ -1,21 +1,13 @@
 import Header from "./components/layout/Header";
 import Home from "./components/sections/Home";
+import About from "./components/sections/About";
 
 function App() {
   return (
     <div className="min-h-screen bg-white dark:bg-black">
       <Header />
       <Home />
-
-      <section id="about" className="py-20 bg-white dark:bg-gray-900">
-        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-bold text-gray-900 dark:text-white mb-4">
-              About Me
-            </h2>
-          </div>
-        </div>
-      </section>
+      <About />
 
       <section id="skills" className="py-20 bg-gray-50 dark:bg-black">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
