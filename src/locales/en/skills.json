@@ -1,0 +1,95 @@
+{
+    "title": "Skills",
+    "categories": {
+        "languages": {
+            "title": "Programming Languages",
+            "description": "Core programming languages for software development"
+        },
+        "frameworks": {
+            "title": "Frameworks",
+            "description": "Frameworks and libraries for building modern applications"
+        },
+        "tools": {
+            "title": "Tools",
+            "description": "Design and development tools"
+        }
+    },
+    "skills": {
+        "javascript": {
+            "name": "JavaScript",
+            "level": "Advanced",
+            "description": "Proficient in ES6+, building frontend and backend applications"
+        },
+        "typescript": {
+            "name": "TypeScript",
+            "level": "Advanced",
+            "description": "Extends JavaScript with type safety"
+        },
+        "java": {
+            "name": "Java",
+            "level": "Intermediate",
+            "description": "Uses object-oriented programming to build backend applications"
+        },
+        "cpp": {
+            "name": "C/C++",
+            "level": "Intermediate",
+            "description": "Practiced algorithms and problem-solving"
+        },
+        "python": {
+            "name": "Python",
+            "level": "Beginner",
+            "description": "Used for training basic machine learning models"
+        },
+        "react": {
+            "name": "React",
+            "level": "Advanced",
+            "description": "Builds web interfaces, proficient with hooks and state management"
+        },
+        "tailwindcss": {
+            "name": "Tailwind CSS",
+            "level": "Advanced",
+            "description": "Quickly builds customizable interfaces with utility-first CSS"
+        },
+        "reactnative": {
+            "name": "React Native",
+            "level": "Advanced",
+            "description": "Develops cross-platform mobile applications"
+        },
+        "express": {
+            "name": "Express.js",
+            "level": "Advanced",
+            "description": "Develops backend APIs that are flexible and easy to maintain"
+        },
+        "nestjs": {
+            "name": "NestJS",
+            "level": "Intermediate",
+            "description": "Builds modular backend APIs with scalable architecture"
+        },
+        "springboot": {
+            "name": "Spring Boot",
+            "level": "Intermediate",
+            "description": "Designs backend systems with microservices architecture"
+        },
+        "git": {
+            "name": "Git",
+            "level": "Advanced",
+            "description": "Manages code effectively and supports team collaboration"
+        },
+        "figma": {
+            "name": "Figma",
+            "level": "Advanced",
+            "description": "Designs UI/UX and creates prototypes"
+        },
+        "postman": {
+            "name": "Postman",
+            "level": "Expert",
+            "description": "Tests and validates APIs efficiently"
+        }
+    },
+    "levels": {
+        "expert": "Expert",
+        "advanced": "Advanced",
+        "intermediate": "Intermediate",
+        "beginner": "Beginner"
+    }
+}

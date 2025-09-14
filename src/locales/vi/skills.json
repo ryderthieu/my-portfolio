@@ -1,0 +1,95 @@
+{
+    "title": "Kỹ Năng",
+    "categories": {
+        "languages": {
+            "title": "Ngôn Ngữ Lập Trình",
+            "description": "Các ngôn ngữ lập trình cốt lõi cho phát triển phần mềm"
+        },
+        "frameworks": {
+            "title": "Framework",
+            "description": "Framework và thư viện để xây dựng ứng dụng hiện đại"
+        },
+        "tools": {
+            "title": "Công Cụ",
+            "description": "Công cụ thiết kế và phát triển"
+        }
+    },
+    "skills": {
+        "javascript": {
+            "name": "JavaScript",
+            "level": "Tốt",
+            "description": "Thành thạo ES6+, xây dựng ứng dụng frontend và backend"
+        },
+        "typescript": {
+            "name": "TypeScript",
+            "level": "Tốt",
+            "description": "Mở rộng từ JavaScript, xử lý an toàn bằng type"
+        },
+        "java": {
+            "name": "Java",
+            "level": "Trung bình",
+            "description": "Sử dụng lập trình hướng đối tượng để phát triển ứng dụng backend"
+        },
+        "cpp": {
+            "name": "C/C++",
+            "level": "Trung bình",
+            "description": "Làm quen với lập trình, rèn tư duy giải thuật và giải quyết bài toán"
+        },
+        "python": {
+            "name": "Python",
+            "level": "Cơ bản",
+            "description": "Sử dụng để làm quen với huấn luyện mô hình học máy"
+        },
+        "react": {
+            "name": "React",
+            "level": "Tốt",
+            "description": "Phát triển giao diện web, sử dụng tốt hooks và quản lý state"
+        },
+        "tailwindcss": {
+            "name": "Tailwind CSS",
+            "level": "Tốt",
+            "description": "Thiết kế giao diện nhanh chóng, dễ tùy biến với utility-first CSS"
+        },
+        "reactnative": {
+            "name": "React Native",
+            "level": "Tốt",
+            "description": "Phát triển ứng dụng di động đa nền tảng"
+        },
+        "express": {
+            "name": "Express.js",
+            "level": "Tốt",
+            "description": "Phát triển API backend linh hoạt, dễ bảo trì với Express.js"
+        },
+        "nestjs": {
+            "name": "NestJS",
+            "level": "Trung bình",
+            "description": "Phát triển API backend theo kiến trúc module, tối ưu khả năng mở rộng"
+        },
+        "springboot": {
+            "name": "Spring Boot",
+            "level": "Trung bình",
+            "description": "Thiết kế hệ thống backend theo kiến trúc microservices"
+        },
+        "git": {
+            "name": "Git",
+            "level": "Tốt",
+            "description": "Quản lý code hiệu quả, hỗ trợ làm việc nhóm"
+        },
+        "figma": {
+            "name": "Figma",
+            "level": "Tốt",
+            "description": "Thiết kế giao diện UI/UX, tạo bản thiết kế mẫu"
+        },
+        "postman": {
+            "name": "Postman",
+            "level": "Thành thạo",
+            "description": "Chạy thử và kiểm tra các API"
+        }
+    },
+    "levels": {
+        "expert": "Thành thạo",
+        "advanced": "Tốt",
+        "intermediate": "Trung bình",
+        "beginner": "Cơ bản"
+    }
+}

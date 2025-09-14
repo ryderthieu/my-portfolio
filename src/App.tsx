@@ -1,6 +1,7 @@
 import Header from "./components/layout/Header";
 import Home from "./components/sections/Home";
 import About from "./components/sections/About";
+import Skills from "./components/sections/Skills";
 
 function App() {
   return (
@@ -8,19 +9,7 @@ function App() {
       <Header />
       <Home />
       <About />
-
-      <section id="skills" className="py-20 bg-gray-50 dark:bg-black">
-        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-bold text-gray-900 dark:text-white mb-4">
-              Skills
-            </h2>
-            <p className="text-lg text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
-              Technologies and tools I use to bring ideas to life
-            </p>
-          </div>
-        </div>
-      </section>
+      <Skills />
 
       <section id="project" className="py-20 bg-white dark:bg-gray-900">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">

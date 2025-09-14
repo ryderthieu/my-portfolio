@@ -1,0 +1,95 @@
+{
+    "title": "スキル",
+    "categories": {
+        "languages": {
+            "title": "プログラミング言語",
+            "description": "ソフトウェア開発のための主要なプログラミング言語"
+        },
+        "frameworks": {
+            "title": "フレームワーク",
+            "description": "モダンなアプリケーションを構築するためのフレームワークとライブラリ"
+        },
+        "tools": {
+            "title": "ツール",
+            "description": "設計と開発に使用するツール"
+        }
+    },
+    "skills": {
+        "javascript": {
+            "name": "JavaScript",
+            "level": "上級",
+            "description": "ES6+に精通し、フロントエンドとバックエンドのアプリケーションを構築"
+        },
+        "typescript": {
+            "name": "TypeScript",
+            "level": "上級",
+            "description": "JavaScriptを拡張し、型安全に対応"
+        },
+        "java": {
+            "name": "Java",
+            "level": "中級",
+            "description": "オブジェクト指向でバックエンドアプリケーションを開発"
+        },
+        "cpp": {
+            "name": "C/C++",
+            "level": "中級",
+            "description": "アルゴリズムと問題解決を実践"
+        },
+        "python": {
+            "name": "Python",
+            "level": "初級",
+            "description": "基本的な機械学習モデルの学習に使用"
+        },
+        "react": {
+            "name": "React",
+            "level": "上級",
+            "description": "Webインターフェースを構築し、HooksとState管理に精通"
+        },
+        "tailwindcss": {
+            "name": "Tailwind CSS",
+            "level": "上級",
+            "description": "Utility-first CSSで素早くカスタマイズ可能なUIを構築"
+        },
+        "reactnative": {
+            "name": "React Native",
+            "level": "上級",
+            "description": "クロスプラットフォームのモバイルアプリを開発"
+        },
+        "express": {
+            "name": "Express.js",
+            "level": "上級",
+            "description": "柔軟で保守しやすいバックエンドAPIを開発"
+        },
+        "nestjs": {
+            "name": "NestJS",
+            "level": "中級",
+            "description": "モジュール型のバックエンドAPIを構築し、スケーラブルな設計を実現"
+        },
+        "springboot": {
+            "name": "Spring Boot",
+            "level": "中級",
+            "description": "マイクロサービスアーキテクチャでバックエンドシステムを設計"
+        },
+        "git": {
+            "name": "Git",
+            "level": "上級",
+            "description": "コードを効率的に管理し、チーム開発を支援"
+        },
+        "figma": {
+            "name": "Figma",
+            "level": "上級",
+            "description": "UI/UXを設計し、プロトタイプを作成"
+        },
+        "postman": {
+            "name": "Postman",
+            "level": "エキスパート",
+            "description": "APIを効率的にテスト・検証"
+        }
+    },
+    "levels": {
+        "expert": "エキスパート",
+        "advanced": "上級",
+        "intermediate": "中級",
+        "beginner": "初級"
+    }
+}
