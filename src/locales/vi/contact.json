@@ -1,0 +1,15 @@
+{
+    "title": "Liên Hệ",
+    "subtitle": "Hãy kết nối với tôi! Tôi luôn sẵn sàng thảo luận về các dự án mới và cơ hội hợp tác.",
+    "email": "Email",
+    "github": "GitHub",
+    "linkedin": "LinkedIn",
+    "facebook": "Facebook",
+    "nav": {
+        "home": "Trang Chủ",
+        "about": "Về Tôi",
+        "skills": "Kỹ Năng",
+        "project": "Dự Án",
+        "contact": "Liên Hệ"
+    }
+}

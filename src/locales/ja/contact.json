@@ -1,0 +1,15 @@
+{
+    "title": "お問い合わせ",
+    "subtitle": "つながりましょう！新しいプロジェクトや機会について話し合うことを歓迎します。",
+    "email": "メール",
+    "github": "GitHub",
+    "linkedin": "LinkedIn",
+    "facebook": "Facebook",
+    "nav": {
+        "home": "ホーム",
+        "about": "私について",
+        "skills": "スキル",
+        "project": "プロジェクト",
+        "contact": "お問い合わせ"
+    }
+}

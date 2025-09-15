@@ -6,6 +6,7 @@ export { default as MenuIcon } from "./MenuIcon";
 export { default as SunIcon } from "./SunIcon";
 export { default as MoonIcon } from "./MoonIcon";
 export { default as LocationIcon } from "./LocationIcon";
+export { default as FacebookIcon } from "./FacebookIcon";
 export { default as DownloadIcon } from "./DownloadIcon";
 export { default as GitHubIcon } from "./GitHubIcon";
 export { default as LinkedInIcon } from "./LinkedInIcon";

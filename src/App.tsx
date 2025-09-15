@@ -3,6 +3,7 @@ import Home from "./components/sections/Home";
 import About from "./components/sections/About";
 import Skills from "./components/sections/Skills";
 import Projects from "./components/sections/Projects";
+import Contact from "./components/sections/Contact";
 
 function App() {
   return (
@@ -12,21 +13,7 @@ function App() {
       <About />
       <Skills />
       <Projects />
-
-      <section
-        id="contact"
-        className="py-20 bg-gradient-to-br from-blue-50 to-purple-50 dark:from-gray-800 dark:to-black"
-      >
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-4xl md:text-5xl font-bold text-gray-900 dark:text-white mb-4">
-            Contact
-          </h2>
-        </div>
-      </section>
-
-      <footer className="py-8 bg-gray-900 dark:bg-black text-center">
-        <p className="text-gray-400">Footer</p>
-      </footer>
+      <Contact />
     </div>
   );
 }

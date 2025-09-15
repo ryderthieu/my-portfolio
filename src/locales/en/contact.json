@@ -1,0 +1,15 @@
+{
+    "title": "Contact",
+    "subtitle": "Let's connect! I'm always open to discussing new projects and opportunities.",
+    "email": "Email",
+    "github": "GitHub",
+    "linkedin": "LinkedIn",
+    "facebook": "Facebook",
+    "nav": {
+        "home": "Home",
+        "about": "About",
+        "skills": "Skills",
+        "project": "Projects",
+        "contact": "Contact"
+    }
+}
