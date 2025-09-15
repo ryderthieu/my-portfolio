@@ -13,6 +13,9 @@ import jaAbout from "./locales/ja/about.json";
 import viSkills from "./locales/vi/skills.json";
 import enSkills from "./locales/en/skills.json";
 import jaSkills from "./locales/ja/skills.json";
+import viProjects from "./locales/vi/projects.json";
+import enProjects from "./locales/en/projects.json";
+import jaProjects from "./locales/ja/projects.json";
 
 i18n
   .use(I18nextBrowserLanguageDetector)
@@ -24,18 +27,21 @@ i18n
         home: viHome,
         about: viAbout,
         skills: viSkills,
+        projects: viProjects,
       },
       en: {
         header: enHeader,
         home: enHome,
         about: enAbout,
         skills: enSkills,
+        projects: enProjects,
       },
       ja: {
         header: jaHeader,
         home: jaHome,
         about: jaAbout,
         skills: jaSkills,
+        projects: jaProjects,
       },
     },
     fallbackLng: "en",

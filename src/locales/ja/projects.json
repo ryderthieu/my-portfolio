@@ -1,0 +1,65 @@
+{
+    "title": "プロジェクト",
+    "viewCode": "GitHubで見る",
+    "technologies": "使用技術",
+    "projects": {
+        "portfolio": {
+            "title": "Portfolio Website",
+            "description": "個人ポートフォリオサイト。多言語対応（ベトナム語・英語・日本語）とライト/ダークモード切替機能付き。",
+            "technologies": [
+                "React",
+                "TypeScript",
+                "Tailwind CSS",
+                "i18next",
+                "Vite"
+            ],
+            "role": "フロントエンド開発者"
+        },
+        "cooking-network": {
+            "title": "Cooking Social Network",
+            "description": "料理好きのためのソーシャルプラットフォーム。レシピ共有や交流ができ、リアルタイムのメッセージと通知機能を搭載。",
+            "technologies": [
+                "React",
+                "Tailwind CSS",
+                "NestJS",
+                "MySQL",
+                "Socket.io"
+            ],
+            "role": "フルスタック開発者"
+        },
+        "hospital": {
+            "title": "Hospital Management System",
+            "description": "マイクロサービスアーキテクチャを採用した病院管理システム。患者向けモバイルアプリ（病気診断モデル搭載）と、医師・スタッフ向け管理ウェブサイトを含む。",
+            "technologies": [
+                "React",
+                "React Native",
+                "Tailwind CSS",
+                "Spring Boot",
+                "FlaskAPI",
+                "PostgreSQL"
+            ],
+            "role": "バックエンド開発者"
+        },
+        "japanese-app": {
+            "title": "Japanese Learning App",
+            "description": "日本語学習アプリ。コース購入、学習リソース提供、GPTとの会話練習機能をサポート。",
+            "technologies": [
+                "React Native",
+                "Tailwind CSS",
+                "OpenAI API",
+                "MongoDB",
+                "ExpressJS"
+            ],
+            "role": "フルスタック開発者"
+        },
+        "tutor": {
+            "title": "Tutor Website Seisei",
+            "description": "コース登録、家庭教師検索、生徒検索ができる家庭教師サイトのインターフェース。",
+            "technologies": [
+                "React",
+                "SCSS"
+            ],
+            "role": "フロントエンド開発者"
+        }
+    }
+}

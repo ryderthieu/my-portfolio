@@ -15,3 +15,7 @@ export { default as BugIcon } from "./BugIcon";
 export { default as LearningIcon } from "./LearningIcon";
 export { default as ExperienceIcon } from "./ExperienceIcon";
 export { default as InnovationIcon } from "./InnovationIcon";
+export { default as ProjectIcon } from "./ProjectIcon";
+export { default as ExternalLinkIcon } from "./ExternalLinkIcon";
+export { default as ArrowLeftIcon } from "./ArrowLeftIcon";
+export { default as ArrowRightIcon } from "./ArrowRightIcon";

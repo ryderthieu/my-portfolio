@@ -1,0 +1,65 @@
+{
+    "title": "Dự Án",
+    "viewCode": "Xem trên GitHub",
+    "technologies": "Công nghệ sử dụng",
+    "projects": {
+        "portfolio": {
+            "title": "Portfolio Website",
+            "description": "Website portfolio cá nhân, hỗ trợ đa ngôn ngữ (Tiếng Việt, Tiếng Anh, Tiếng Nhật) và chế độ tối/sáng.",
+            "technologies": [
+                "React",
+                "TypeScript",
+                "Tailwind CSS",
+                "i18next",
+                "Vite"
+            ],
+            "role": "Frontend Developer"
+        },
+        "cooking-network": {
+            "title": "Cooking Social Network",
+            "description": "Nền tảng mạng xã hội cho người yêu nấu ăn, chia sẻ công thức và tương tác với nhau, hỗ trợ nhắn tin và thông báo thời gian thực.",
+            "technologies": [
+                "React",
+                "Tailwind CSS",
+                "NestJS",
+                "MySQL",
+                "Socket.io"
+            ],
+            "role": "Fullstack Developer"
+        },
+        "hospital": {
+            "title": "Hospital Management System",
+            "description": "Hệ thống quản lý bệnh viện sử dụng kiến trúc microservices. Hệ thống gồm ứng dụng di động cho bệnh nhân tích hợp mô hình chẩn đoán bệnh, website quản lý cho bác sĩ và nhân viên.",
+            "technologies": [
+                "React",
+                "React Native",
+                "Tailwind CSS",
+                "Spring Boot",
+                "FlaskAPI",
+                "PostgreSQL"
+            ],
+            "role": "Backend Developer"
+        },
+        "japanese-app": {
+            "title": "Japanese Learning App",
+            "description": "Ứng dụng học tiếng Nhật hỗ trợ mua khóa học, cung cấp tài nguyên học tập và tích hợp GPT để luyện hội thoại.",
+            "technologies": [
+                "React Native",
+                "Tailwind CSS",
+                "OpenAI API",
+                "MongoDB",
+                "ExpressJS"
+            ],
+            "role": "Fullstack Developer"
+        },
+        "tutor": {
+            "title": "Website gia sư Seisei",
+            "description": "Giao diện website gia sư, hỗ trợ đăng ký khóa học, tìm kiếm gia sư và học viên.",
+            "technologies": [
+                "React",
+                "SCSS"
+            ],
+            "role": "Frontend Developer"
+        }
+    }
+}

@@ -5,6 +5,7 @@ import App from "./App.tsx";
 import { ThemeProvider } from "./contexts/ThemeContext";
 import { LanguageProvider } from "./contexts/LanguageContext";
 import "./i18n";
+import "./declarations.d.ts";
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>

@@ -1,0 +1,65 @@
+{
+    "title": "Projects",
+    "viewCode": "View on GitHub",
+    "technologies": "Technologies Used",
+    "projects": {
+        "portfolio": {
+            "title": "Portfolio Website",
+            "description": "Personal portfolio website with multilingual support (Vietnamese, English, Japanese) and light/dark mode.",
+            "technologies": [
+                "React",
+                "TypeScript",
+                "Tailwind CSS",
+                "i18next",
+                "Vite"
+            ],
+            "role": "Frontend Developer"
+        },
+        "cooking-network": {
+            "title": "Cooking Social Network",
+            "description": "A social platform for cooking enthusiasts to share recipes and interact with each other, featuring real-time messaging and notifications.",
+            "technologies": [
+                "React",
+                "Tailwind CSS",
+                "NestJS",
+                "MySQL",
+                "Socket.io"
+            ],
+            "role": "Fullstack Developer"
+        },
+        "hospital": {
+            "title": "Hospital Management System",
+            "description": "A hospital management system built with a microservices architecture. It includes a mobile app for patients with an integrated disease diagnosis model and management websites for doctors and staff.",
+            "technologies": [
+                "React",
+                "React Native",
+                "Tailwind CSS",
+                "Spring Boot",
+                "FlaskAPI",
+                "PostgreSQL"
+            ],
+            "role": "Backend Developer"
+        },
+        "japanese-app": {
+            "title": "Japanese Learning App",
+            "description": "A Japanese learning app that supports course purchases, provides study resources, and integrates GPT for conversation practice.",
+            "technologies": [
+                "React Native",
+                "Tailwind CSS",
+                "OpenAI API",
+                "MongoDB",
+                "ExpressJS"
+            ],
+            "role": "Fullstack Developer"
+        },
+        "tutor": {
+            "title": "Seisei Tutor Website",
+            "description": "Tutor website interface with features for course registration, tutor search, and student search.",
+            "technologies": [
+                "React",
+                "SCSS"
+            ],
+            "role": "Frontend Developer"
+        }
+    }
+}
