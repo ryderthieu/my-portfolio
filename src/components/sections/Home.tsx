@@ -1,6 +1,6 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
-import profileImage from "../../assets/profile-image.png";
+import profileImage from "../../assets/images/home.jpg";
 import {
   LocationIcon,
   DownloadIcon,
@@ -9,6 +9,7 @@ import {
   BugIcon,
 } from "../../assets/icons";
 import { useTypingEffect } from "../../hooks/useTypingEffect";
+import cv from "../../assets/files/cv.pdf";
 const Home: React.FC = () => {
   const { t } = useTranslation("home");
   const { displayedText: hello, isCompleted: helloCompleted } = useTypingEffect(
@@ -24,10 +25,10 @@ const Home: React.FC = () => {
     delay: helloCompleted ? 200 : 9999,
   });
   const handleDownloadCV = () => {
-    const cvUrl = "/cv.pdf";
+    const cvUrl = cv;
     const link = document.createElement("a");
     link.href = cvUrl;
-    link.download = "CV_YourName.pdf";
+    link.download = "CV_HuynhVanThieu.pdf";
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);

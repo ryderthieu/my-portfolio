@@ -1,6 +1,6 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
-import profileImage from "../../assets/profile-image.png";
+import profileImage from "../../assets/images/about.jpg";
 import {
   LearningIcon,
   ExperienceIcon,
