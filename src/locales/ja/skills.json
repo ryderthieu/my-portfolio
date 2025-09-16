@@ -62,7 +62,7 @@
         },
         "nestjs": {
             "name": "NestJS",
-            "level": "中級",
+            "level": "上級",
             "description": "モジュール型のバックエンドAPIを構築し、スケーラブルな設計を実現"
         },
         "springboot": {

@@ -62,7 +62,7 @@
         },
         "nestjs": {
             "name": "NestJS",
-            "level": "Trung bình",
+            "level": "Tốt",
             "description": "Phát triển API backend theo kiến trúc module, tối ưu khả năng mở rộng"
         },
         "springboot": {

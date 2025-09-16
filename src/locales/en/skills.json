@@ -62,7 +62,7 @@
         },
         "nestjs": {
             "name": "NestJS",
-            "level": "Intermediate",
+            "level": "Advanced",
             "description": "Builds modular backend APIs with scalable architecture"
         },
         "springboot": {
